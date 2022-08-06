@@ -50,14 +50,14 @@ p {
 
 /* базові книпки */
 .button {
-    min-width: 70px;
+  min-width: 70px;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: none;
   border-radius: 4px;
-  
+
   color: var(--title-text-color);
   background-color: var(--primary-bg-color);
   font-family: inherit;
@@ -217,7 +217,7 @@ p {
 }
 
 .feature-list .item {
-    width: 270px;
+  width: 270px;
 }
 
 .feature-list .item:not(.item:last-child) {
@@ -272,7 +272,7 @@ p {
 }
 
 .team-list .item {
-    width: 270px;
+  width: 270px;
 }
 
 .team-list .item {
@@ -310,57 +310,52 @@ p {
 
 /* Портфоліо*/
 .portfolio {
-    padding-top: 95px;
-    padding-bottom: 95px;
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 .button-list {
-    display: flex;
-    justify-content: center;
-    margin-bottom: 50px;
-
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
 }
 
-.button-list .item:not(.item:last-child){
-    margin-right: 8px;
+.button-list .item:not(.item:last-child) {
+  margin-right: 8px;
 }
-
 
 .portfolio-list {
-    display: flex;
-    flex-wrap: wrap;
-    
+  display: flex;
+  flex-wrap: wrap;
 }
 
- /* вказав ширину для обмеження нутрышнього контенту */
-.portfolio-list .item{
-    width: 370px;
+/* вказав ширину для обмеження нутрышнього контенту */
+.portfolio-list .item {
+  width: 370px;
 }
 
 .portfolio-list .item:not(.item:nth-child(3n)) {
-    margin-right: 30px;
+  margin-right: 30px;
 }
 
-.portfolio-list .item:not(.item:nth-last-child(-n+3)) {
-    margin-bottom: 30px;
+.portfolio-list .item:not(.item:nth-last-child(-n + 3)) {
+  margin-bottom: 30px;
 }
 
-.portfolio-list img{
-    display: block;
+.portfolio-list img {
+  display: block;
 }
 
-.portfolio-list .item-text{
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 25px;
-    padding-right: 25px;
+.portfolio-list .item-text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 25px;
+  padding-right: 25px;
 
-    border-left: 1px solid #EEEEEE;
-    border-right: 1px solid #EEEEEE;
-    border-bottom: 1px solid #EEEEEE;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
-
-
 
 .portfolio-list a {
   text-decoration: none;
@@ -388,13 +383,12 @@ p {
   background-color: var(--primary-black-color);
 }
 
-.footer .logo{
-    display: block;
-    
-    margin-right: 0;
-    margin-bottom: 30px;
-}
+.footer .logo {
+  display: block;
 
+  margin-right: 0;
+  margin-bottom: 30px;
+}
 
 .address {
   color: var(--primary-white-color);
@@ -402,7 +396,6 @@ p {
   font-size: 14px;
   line-height: 1.71;
 }
-
 
 .footer-link {
   display: block;
