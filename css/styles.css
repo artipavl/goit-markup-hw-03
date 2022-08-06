@@ -74,6 +74,10 @@ p {
 }
 
 /* Header */
+header {
+  border-bottom: 1px solid #ECECEC;
+}
+
 .header-content {
   display: flex;
   align-items: center;
