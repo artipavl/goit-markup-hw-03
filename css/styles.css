@@ -50,6 +50,7 @@ p {
 
 /* базові книпки */
 .button {
+    min-width: 70px;
   padding-left: 22px;
   padding-right: 22px;
   padding-top: 5px;
@@ -198,6 +199,10 @@ p {
   padding-bottom: 95px;
 }
 
+.feature-list .item {
+    width: 270px;
+}
+
 .feature-list .item:not(.item:last-child) {
   margin-right: 30px;
 }
@@ -247,6 +252,10 @@ p {
 
 .team-list {
   display: flex;
+}
+
+.team-list .item {
+    width: 270px;
 }
 
 .team-list .item {
@@ -303,6 +312,12 @@ p {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    
+}
+
+ /* вказав ширину для обмеження нутрышнього контенту */
+.portfolio-list .item{
+    width: 370px;
 }
 
 .portfolio-list .item:not(.item:nth-child(3n)) {
@@ -366,9 +381,11 @@ p {
 
 .address {
   color: var(--primary-white-color);
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
 }
+
 
 .footer-link {
   display: block;
