@@ -222,6 +222,12 @@ p {
   letter-spacing: 0.06em;
 }
 
+.hero-button:hover,
+.hero-button:focus{
+  color: var(--accent-color);
+  background-color: var(--primary-white-color);
+}
+
 /* Особливості */
 
 .feature {
