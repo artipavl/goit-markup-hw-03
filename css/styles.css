@@ -84,8 +84,8 @@ p {
 }
 
 /* Header */
-.header-accent{
-  border-bottom: 1px solid #ECECEC;
+.header-accent {
+  border-bottom: 1px solid #ececec;
 }
 
 .header-container {
@@ -220,7 +220,7 @@ p {
 
 /* Особливості */
 
-.feature{
+.feature {
   padding-bottom: 0px;
 }
 
@@ -368,6 +368,8 @@ p {
   padding-bottom: 60px;
 }
 .footer .logo {
+  margin: 0;
+  padding: 0;
   margin-bottom: 20px;
 
   color: var(--primary-white-color);
