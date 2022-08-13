@@ -44,16 +44,33 @@ p {
   margin: 0;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .container {
   width: 1170px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
-  padding-top: 94px;
-  padding-bottom: 94px;
   /* outline: 2px solid red; */
 }
+
 /* базові книпки */
 .button {
   min-width: 44px;
@@ -185,10 +202,16 @@ p {
 /* Шапка */
 /* Герой */
 .hero {
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--primary-black-color);
 }
+
 .hero-title {
+  width: 696px;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 
   font-weight: 900;
   font-size: 44px;
@@ -223,7 +246,7 @@ p {
 }
 
 .hero-button:hover,
-.hero-button:focus{
+.hero-button:focus {
   color: var(--accent-color);
   background-color: var(--primary-white-color);
 }
@@ -356,6 +379,8 @@ p {
   border-bottom: 1px solid #eeeeee;
 }
 .portfolio-title {
+  margin-bottom: 4px;
+
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
@@ -371,12 +396,10 @@ p {
 /* footer */
 .footer {
   background-color: var(--primary-black-color);
-}
-
-.footer-container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
 .footer .logo {
   margin: 0;
   padding: 0;
